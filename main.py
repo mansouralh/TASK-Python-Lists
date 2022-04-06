@@ -8,7 +8,7 @@
 # check_length_is_odd([1, 2, 3, 4]) -> flase
 def check_length_is_odd(numbers):
     # Your code here
-    ...
+    return len(numbers) % 2 != 0
 
 
 # check_length_is_even(numbers):
@@ -20,7 +20,7 @@ def check_length_is_odd(numbers):
 # check_length_is_even([1, 2, 3, 4]) -> true
 def check_length_is_even(numbers):
     # Your code here
-    ...
+    return not check_length_is_odd(numbers)
 
 
 # add_mohammad_to_list(instructors):
@@ -30,7 +30,7 @@ def check_length_is_even(numbers):
 # add_mohammad_to_list(["Mshary", "Hasan"]) -> ["Mshary", "Hasan", "Mohammad"]
 def add_mohammad_to_list(instructors):
     # Your code here
-    ...
+    return [*instructors, "mohammad"]
 
 
 # eliminate_team(teams):
@@ -40,7 +40,7 @@ def add_mohammad_to_list(instructors):
 # eliminate_team(["Brazil", "Germany", "Italy"]) -> "Italy"
 def eliminate_team(teams):
     # Your code here
-    ...
+    return teams.pop()
 
 
 # second_half_of_list_if_even(fruits):
@@ -52,4 +52,7 @@ def eliminate_team(teams):
 # second_half_of_list_if_even(["apple", "orange", "banana", "kiwi", "blueberry"]) -> []
 def second_half_of_list_if_even(fruits):
     # Your code here
-    ...
+    if check_length_is_even(fruits):
+        half = len(fruits) // -2
+        return fruits[half:]
+    return []

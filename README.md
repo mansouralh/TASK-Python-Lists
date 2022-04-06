@@ -1,8 +1,6 @@
-# Python Lists
+# Task
 
 In this task you will be exploring `lists` in depth.
-
-## Task
 
 1. Fork and clone [this repository](https://github.com/JoinCODED/TASK-Python-Lists.git).
 2. `cd` in the repo folder.
