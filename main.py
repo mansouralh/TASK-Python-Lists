@@ -54,6 +54,6 @@ def second_half_of_list_if_even(fruits):
     # Your code here
     if check_length_is_even(fruits):
         # just out of curiosity, why -2 not 2 👀?
-        half = len(fruits) // -2
+        half = len(fruits) // 2
         return fruits[half:]
     return []
