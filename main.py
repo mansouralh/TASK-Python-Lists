@@ -1,19 +1,19 @@
 # check_length_is_odd(numbers):
-# - receives list `numbers`
-# - returns true if list has an odd number of elements
+# - receives a list of `numbers`
+# - returns true if the list has an odd number of elements
 # - returns false otherwise
 #
 # e.g.
 # check_length_is_odd([1, 2, 3]) -> true
-# check_length_is_odd([1, 2, 3, 4]) -> flase
+# check_length_is_odd([1, 2, 3, 4]) -> false
 def check_length_is_odd(numbers):
     # Your code here
     ...
 
 
 # check_length_is_even(numbers):
-# - receives list `numbers`
-# - returns true if list has an even number of elements
+# - receives a list of `numbers`
+# - returns true if the list has an even number of elements
 # - returns false otherwise
 # e.g.
 # check_length_is_even([1, 2, 3]) -> false
@@ -24,8 +24,8 @@ def check_length_is_even(numbers):
 
 
 # add_mohammad_to_list(instructors):
-# - receives list `instructors`
-# - returns a new list that's a copy of list `instructors` with additional string "Laila"
+# - receives a list of `instructors`
+# - returns a new list that's a copy of list `instructors` with additional string "Mohammad"
 # e.g.
 # add_mohammad_to_list(["Mshary", "Hasan"]) -> ["Mshary", "Hasan", "Mohammad"]
 def add_mohammad_to_list(instructors):
@@ -34,8 +34,8 @@ def add_mohammad_to_list(instructors):
 
 
 # eliminate_team(teams):
-# - receives list `teams`
-# - removes the last element from the list and return it
+# - receives a list of `teams`
+# - removes the last element from the list and returns it
 # e.g.
 # eliminate_team(["Brazil", "Germany", "Italy"]) -> "Italy"
 def eliminate_team(teams):
@@ -44,7 +44,7 @@ def eliminate_team(teams):
 
 
 # second_half_of_list_if_even(fruits):
-# - receives list `fruits`
+# - receives a list of `fruits`
 # - returns a new list that's the second half of the original list if it has an even number of elements
 # - returns an empty list if it has an odd number of elements
 # e.g.
