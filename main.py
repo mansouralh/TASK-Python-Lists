@@ -8,7 +8,9 @@
 # check_length_is_odd([1, 2, 3, 4]) -> false
 def check_length_is_odd(numbers):
     # Your code here
-    ...
+    numbers[0,3,9,33]
+    bool (len(check_length_is_odd(numbers))%2==0)
+    
 
 
 # check_length_is_even(numbers):
@@ -20,8 +22,8 @@ def check_length_is_odd(numbers):
 # check_length_is_even([1, 2, 3, 4]) -> true
 def check_length_is_even(numbers):
     # Your code here
-    ...
-
+    numbers[0,3,9,33]
+    bool (len(check_length_is_odd(numbers))%2!=0)
 
 # add_mohammad_to_list(instructors):
 # - receives a list of `instructors`
@@ -30,8 +32,8 @@ def check_length_is_even(numbers):
 # add_mohammad_to_list(["Mshary", "Hasan"]) -> ["Mshary", "Hasan", "Mohammad"]
 def add_mohammad_to_list(instructors):
     # Your code here
-    ...
-
+    instructors["mj","mk","mn"]
+    instructors.append("mohammad")
 
 # eliminate_team(teams):
 # - receives a list of `teams`
@@ -40,7 +42,8 @@ def add_mohammad_to_list(instructors):
 # eliminate_team(["Brazil", "Germany", "Italy"]) -> "Italy"
 def eliminate_team(teams):
     # Your code here
-    ...
+    teams["fcb","acm","rlm"]
+    eliminate_team(teams[-1])
 
 
 # second_half_of_list_if_even(fruits):
@@ -52,4 +55,8 @@ def eliminate_team(teams):
 # second_half_of_list_if_even(["apple", "orange", "banana", "kiwi", "blueberry"]) -> []
 def second_half_of_list_if_even(fruits):
     # Your code here
-    ...
+    fruits["banana","apple","orange","kiwi"]
+    second_half_of_list_if_even(fruits[:3])
+    second_half_of_list_if_even(fruits[0])
+    
+    
